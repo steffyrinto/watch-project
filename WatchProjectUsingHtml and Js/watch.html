@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>
+            smart watch
+        </title>
+        <style>
+        nav{
+          margin-top: 10px;
+          margin-left: 10px;
+
+        }
+         .box1{
+
+           position:fixed;
+         }
+     .box1{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+
+     }
+     #contents{
+       margin-top: -541px;
+       margin-left: 251px;
+       z-index: 1;
+     }
+    nav{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 10em;
+        right: 0;
+        top: -18em; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+       }
+
+</style>
+    </head>
+    <body onload="startTime()">
+
+      <section >
+
+          <div  class="container">
+                <div class="col-sm-8" id="main"  >
+                  <div class="box1 col-sm-8"  >
+                      <img src="image.jpg">
+
+                      <div id="contents" style="border:1px solid black; border-radius: 10px;  width:295px; height:269px; position:absolute;color: #fff">
+
+                              <div id="txt" style="margin-left:216px"></div>
+
+                                    <div  id="content"  style="border:1px solid none;">
+                                     
+                              </div>
+
+                    </div>
+                  </div>
+               </div>
+          </div>
+       </section>
+       <footer class="col-sm-8">
+
+
+           <nav >
+           <div class="text" class="col-sm-8" >
+             <a href="chat.html" class="current">
+             <i class="fa fa-comments" aria-hidden="true" style="padding:30px;"></i>
+           </a>
+             <a href="font.html" >
+             <i class="fa fa-music" aria-hidden="true" style="padding:15px;"></i>
+             </a>
+             <a href="smartwatch.html">
+             <i class="fa fa-clock-o" aria-hidden="true" style="padding:30px;"></i>
+             </a>
+           </div>
+         </nav>
+
+
+       </footer>
+    <script src="smart.js"></script>
+
+    </body>
+</html>
